@@ -205,7 +205,8 @@
 ================================================== */
 
 	form {
-		margin-bottom: 20px; }
+		margin-bottom: 20px;
+		text-align: center;}
 	fieldset {
 		margin-bottom: 20px; }
 	input[type="text"],
@@ -221,7 +222,7 @@
 		border-radius: 2px;
 		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
-		margin: 0;
+		margin: auto; /* Was 0 default */
 		width: 210px;
 		max-width: 100%;
 		display: block;
