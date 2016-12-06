@@ -27,7 +27,7 @@ COPY nginx.conf /etc/nginx/sites-enabled/webapp.conf
 # Install bundle of gems
 WORKDIR /tmp
 COPY Gemfile /tmp/
-# COPY Gemfile.lock /tmp/
+COPY Gemfile.lock /tmp/
 RUN bundle install
 
 # Add the Passenger app
